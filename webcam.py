@@ -11,7 +11,7 @@ import face_recognition
 from PIL import Image
 
 # Cargar el modelo previamente entrenado para la detección de emociones
-modelo_emociones = load_model("modeloFERCNN.h5")
+modelo_emociones = load_model("429modeloFERCNN.h5")
 modelomlp = load_model("7MLPFER.h5")
 
 # Etiquetas de las imágenes del dataset
